@@ -1,0 +1,11 @@
+<div class="header" ng-controller="NavbarCtrl">
+    <div class="container">
+        <ul class="nav nav-pills pull-right">
+            <li ng-repeat="item in menu" ng-class="{active: isActive(item.link)}">
+                <a ng-href="{{item.link}}">{{item.title}}</a>
+            </li>
+        </ul>
+
+        <h3 class="text-muted">Angular, Express, MongoDB By <a ng-href="http://williamjxj.com"> William Jiang.</a></h3>
+    </div>
+</div>
