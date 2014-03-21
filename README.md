@@ -9,7 +9,7 @@ http://dixitruth.com:9001/
 
 
 2. implement locally (make sure your mongod is running):
-3. 
+ 
  $ git clone ...;
 
  $ npm install
